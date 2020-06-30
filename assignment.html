@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>LOGIN Details</h2>
+<br>
+<br>
+  <div class="center">
+	
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+	<br>
+
+
+<button onclick="myFunction()">Login</button>
+
+<script>
+function myFunction() {
+  alert("Valid user details");
+}
+</script>
+<br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+     
+  </div>
+</form>
+</body>
+</html>
+
